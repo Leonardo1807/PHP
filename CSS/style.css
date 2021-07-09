@@ -1,0 +1,17 @@
+:root {
+	--clr-red: #FD163A;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-size: inherit;
+}
+
+head { display: none !important; }
+
+.big {
+	font-size: 2rem;
+	color: var(--clr-red);
+}
